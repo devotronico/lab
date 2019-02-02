@@ -1,0 +1,12 @@
+html, body {
+    /* font-family: "Consolas, 'Courier New', monospace"; */
+    /* font-family: "Consolas, 'Courier New', monospace"; */
+    /* font-family: Consolas, Courier New, monospace; */
+    font-family: monospace;
+    background-color: #333;
+}
+
+.container {
+    /* padding: 100px; */
+    background-color: silver;
+}
