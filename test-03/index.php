@@ -1,5 +1,10 @@
 <?php
 echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-03</h1>";
+
+echo "LAB LIBERO";
+echo "<br><br>";
+// LAB LIBERO
+
 /*
 $user = new StdClass();
 $user->name = 'Daniele';

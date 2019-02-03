@@ -2,6 +2,10 @@
 
 echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-02</h1>";
 
+/**
+ * Passa un array di valori al costruttore della classe
+ * e ritorna un array di array che viene convertito in una stringa json
+ */
 class Test
 {
     private $data;
