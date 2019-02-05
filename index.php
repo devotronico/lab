@@ -1,3 +1,7 @@
+<?php
+$root = "/workspace/LAB-02/";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
