@@ -18,38 +18,66 @@ echo "<br><br>";
     "liveServer.settings.donotVerifyTags": true,
 
 
-    // Should self-closing tags be highlighted
-    "highlight-matching-tag.highlightSelfClosing": true,
+  // Should self-closing tags be highlighted
+  "highlight-matching-tag.highlightSelfClosing": true,
 
-    "highlight-matching-tag.styles": {
-      "opening": {
-        "left": {
-          "custom": {
-            "borderWidth": "2px 0 2px 2px",
-            "borderStyle": "solid",
-            "borderColor": "yellow",
-            "borderRadius": "0"
-          }
-        },
-        "right": {
-          "custom": {
-            "borderWidth": "2px 2px 2px 0",
-            "borderStyle": "solid",
-            "borderColor": "red",
-            "borderRadius": "0"
-          }
-        },
-        "full": {
-          "highlight": "#000",
-          "custom": {
-            "borderWidth": "0 0 2px 0",
-            "borderStyle": "solid",
-            "borderColor": "#fff",
-            "borderRadius": "0"
-          }
-        },
+"highlight-matching-tag.styles": {
+  "opening": {
+    "left": {
+      "custom": {
+        "borderWidth": "2px 0 2px 2px",
+        "borderStyle": "solid",
+        "borderColor": "yellow",
+        "borderRadius": "0"
       }
     },
+    "right": {
+      "custom": {
+        "borderWidth": "2px 2px 2px 0",
+        "borderStyle": "solid",
+        "borderColor": "yellow",
+        "borderRadius": "0"
+      }
+    },
+    "full": {
+      "highlight": "#131313",
+      "custom": {
+        "borderWidth": "0 0 2px 0",
+        "borderStyle": "solid",
+        "borderColor": "#fff",
+        "borderRadius": "0"
+      }
+    },
+  },
+  "closing": {
+    "left": {
+      "custom": {
+        "borderWidth": "2px 0 2px 2px",
+        "borderStyle": "solid",
+        "borderColor": "red",
+        "borderRadius": "0"
+      }
+    },
+    "right": {
+      "custom": {
+        "borderWidth": "2px 2px 2px 0",
+        "borderStyle": "solid",
+        "borderColor": "red",
+        "borderRadius": "0"
+      }
+    },
+    "full": {
+      "highlight": "#131313",
+      "custom": {
+        "borderWidth": "0 0 2px 0",
+        "borderStyle": "solid",
+        "borderColor": "#fff",
+        "borderRadius": "0"
+      }
+    },
+  }
+},
+
 
 
 
