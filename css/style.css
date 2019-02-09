@@ -1,21 +1,40 @@
 html, body {
-    /* font-family: "Consolas, 'Courier New', monospace"; */
-    /* font-family: "Consolas, 'Courier New', monospace"; */
-    /* font-family: Consolas, Courier New, monospace; */
+
     font-family: monospace;
     background-color: #333;
 }
 
-/* .container {
-    
-    background-color:  silver;
-} */
-.row {
-    padding: 0;
-    background-color:  silver;
+.container-head {
+    background-color:  #666;
 }
 
-/* .col-3 {
-    padding: 0;
-    background-color:  #fff;
-} */
+.container-body {
+    background-color:   silver !important;
+}
+
+.row {
+   
+    background-color:  #eee;
+}
+
+/*<TAG>*/
+.tag {
+
+    padding: 1px 3px;
+    border-radius: 4px;
+}
+.tag-number {
+    margin-right: 5px;
+    background-color: greenyellow;
+}
+.tag-language {
+    margin-left: 5px;
+    background-color: lightseagreen;
+}
+
+.tag-status {
+
+    margin-left: 5px;
+    background-color: lightcoral;
+}
+/*</TAG>*/

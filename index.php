@@ -16,68 +16,311 @@ $root = "/workspace/LAB-02/";
 </head>
 <body>
 
-<div class="container">
-  <div class="d-flex align-items-center my-3 p-3 text-white-50 bg-primary rounded shadow-sm">
-    <img class="mr-3" src="image/flask-solid.svg" alt="lab" width="48" height="48">
+<div class="container container-head d-flex align-items-center my-3 p-3 text-white-50 bg-primary rounded shadow-sm">
+    <!-- <img class="mr-3" src="image/flask-solid.svg" class="logo" alt="lab" width="48" height="48"> -->
+    <div style="padding:5px;font-size: 3em; color: blue;">
+        <i class="fas fa-flask"></i>
+      </div>
     <div class="lh-100">
       <h6 class="mb-0 text-white lh-100">Laboratory</h6>
       <small>Daniele Manzi</small>
     </div>
   </div>
+
+
+
+  <div class="container container-body my-3 p-4 bg-white rounded shadow-sm">
+    <h6 class="pb-2 mb-0">Lista di test e script</h6>
+
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-01/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">01</span><a href="test-01/index.php">01&nbspSERVER Var e URL</a><span class="tag tag-language">php</span>
+        <p>variabili SERVER e lettura dell'URL<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-02/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">02</span><a href="test-02/index.php">Errori di ritorno da una classe</a><span class="tag tag-language">php</span>
+        <p>Passaggio di array al costruttore di una classe e ritorno di messaggi di errori in formato json<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-03/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">03</span><a href="test-03/index.php">Da oggetti a json</a><span class="tag tag-language">php</span>
+        <p>Con php convertire array di oggetti a stringa json e viceversa<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-04/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">04</span><a href="test-04/index.php">Da oggetti a json</a><span class="tag tag-language">js</span>
+        <p>Con javascript convertire array di oggetti a stringa json e viceversa<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-05/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">05</span><a href="test-05/index.php">Closure</a><span class="tag tag-language">php</span>
+        <p>Funzioni Closure<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-06/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">06</span><a href="test-06/index.php">Lambda</a><span class="tag tag-language">php</span>
+        <p>Funzioni Lambda<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-07/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">07</span><a href="test-07/index.php">Visual Studio Code Settings</a><span class="tag tag-language">php</span>
+        <p>I miei settaggi in Visual Studio Code Settings<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+        <a href="test-08/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">08</span><a href="test-08/index.php">Variabili Statiche</a><span class="tag tag-language">php</span>
+        <p>Variabili Statiche<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-09/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">09</span><a href="test-09/index.php">callback lambda array_map</a><span class="tag tag-language">php</span>
+        <p>callback lambda array_map<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-10/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+        <span class="tag tag-number">10</span><a href="test-10/index.php">callback lambda array_reduce</a><span class="tag tag-language">php</span>
+        <p>callback lambda array_reduce<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-11/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">11</span><a href="test-11/index.php">callback lambda array_filter</a><span class="tag tag-language">php</span>
+        <p>callback lambda array_filter<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-12/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">12</span><a href="test-12/index.php">callback lambda array_reduce</a><span class="tag tag-language">php</span>
+        <p>callback lambda array_reduce<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-13/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">13</span><a href="test-13/index.php">callback lambda array_walk</a><span class="tag tag-language">php</span>
+        <p>callback lambda array_walk<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-14/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">14</span><a href="test-14/index.php">Cattura gli errori di un file xml</a><span class="tag tag-language">php</span>
+        <p>Legge un file xml ne cattura gli errori e li scrive su file di log<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-15/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">15</span><a href="test-15/index.php">Crea file di log</a><span class="tag tag-language">php</span>
+        <p>Crea percorso di cartelle con file di testo e ci scrive dentro<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-16/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">16</span><a href="test-16/index.php">scrive su file i dati del database</a><span class="tag tag-language">php</span>
+        <p>Preleva i dati dal database e li scrive su un file di testo<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-17/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">17</span><a href="test-17/index.php">Controlla se una proprietà esiste</a><span class="tag tag-language">php</span>
+        <p>Controlla se una proprietà esiste in una classe o in un oggetto<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-18/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">18</span><a href="test-18/index.php">Lettura cartelle e file</a><span class="tag tag-language">php</span>
+        <p>Legge tutte le cartelle e i file contenute in una directory e li stampa a video<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-19/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">19</span><a href="test-19/index.php">Classe di Validazione file</a><span class="tag tag-language">php</span>
+        <p>classe per validare file xml importato tramite form<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-20/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">20</span><a href="test-20/index.php">Valute</a><span class="tag tag-language">php</span><span class="tag tag-language">msql</span>
+        <p>Array di Valute e Divise e Tabella per memorizzarle<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-21/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">21</span><a href="test-21/index.php">Query collection</a><span class="tag tag-language">php</span><span class="tag tag-language">msql</span>
+        <p>un insieme di query da ottimizzare<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-22/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">22</span><a href="test-22/index.php">Empty</a><span class="tag tag-language">php</span>
+        <p>Empty<span class="tag tag-status">empty</span></p>
+      </div>
+    </div>
+ 
   </div>
-
-    <div class="container h4">
-        <div class="row p-5 text-center">
-            <div class="col-3"><a href="test-01/index.php" title="Tooltip on top"><i class="fas fa-flask">01</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-02/index.php" title="Tooltip"><i class="fas fa-flask">02</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-03/index.php" title="LAB LIBERO"><i class="fas fa-flask">03</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-04/index.php" title="Tooltip"><i class="fas fa-flask">04</i></a>&nbsp</div>
-        </div>
-        <div class="row p-5 text-center">
-            <div class="col-3"><a href="test-05/index.php" title="Closure"><i class="fas fa-flask">05</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-06/index.php" title="Lambda"><i class="fas fa-flask">06</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-07/index.php" title="SETUP VSC"><i class="fas fa-flask">07</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-08/index.php" title="STATIC VARIABLE"><i class="fas fa-flask">08</i></a>&nbsp</div>
-        </div>
-        <div class="row p-5 text-center">
-            <div class="col-3"><a href="test-09/index.php" title="array_map"><i class="fas fa-flask">09</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-10/index.php" title="array_reduce"><i class="fas fa-flask">10</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-11/index.php" title="array_filter"><i class="fas fa-flask">11</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-12/index.php" title="array_reduce"><i class="fas fa-flask">12</i></a>&nbsp</div>
-        </div>
-        <div class="row p-5 text-center">
-            <div class="col-3"><a href="test-13/index.php" title="array_walk"><i class="fas fa-flask">13</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-14/index.php" title="Tooltip"><i class="fas fa-flask">14</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-15/index.php" title="Tooltip"><i class="fas fa-flask">15</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-16/index.php" title="Tooltip"><i class="fas fa-flask">16</i></a>&nbsp</div>
-        </div>
-        <div class="row p-5 text-center">
-            <div class="col-3"><a href="test-17/index.php" title="array_walk"><i class="fas fa-flask">17</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-18/index.php" title="Tooltip"><i class="fas fa-flask">18</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-19/index.php" title="Tooltip"><i class="fas fa-flask">19</i></a>&nbsp</div>
-            <div class="col-3"><a href="test-20/index.php" title="Tooltip"><i class="fas fa-flask">20</i></a>&nbsp</div>
-        </div>
-    </div>
-
-
-
-  <div class="container">
-  <div class="my-3 p-3 bg-white rounded shadow-sm">
-    <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
-    <div class="media text-muted pt-3">
-      <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#007bff" width="100%" height="100%"/><text fill="#007bff" dy=".3em" x="50%" y="50%">32x32</text></svg>
+</body>
+</html>
+    <!-- <div class="media text-muted pt-3">
+      <div style="padding:5px;font-size: 1.5em; color: Tomato;">
+        <i class="fas fa-flask"></i>
+      </div>
       <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <strong class="d-block text-gray-dark">@username</strong>
         Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
       </p>
     </div>
-    <div class="media text-muted pt-3">
-      <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#e83e8c" width="100%" height="100%"/><text fill="#e83e8c" dy=".3em" x="50%" y="50%">32x32</text></svg>
-      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-        <strong class="d-block text-gray-dark">@username</strong>
-        Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-      </p>
-    </div>
+
     <div class="media text-muted pt-3">
       <svg class="bd-placeholder-img mr-2 rounded" width="32" height="32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 32x32"><title>Placeholder</title><rect fill="#6f42c1" width="100%" height="100%"/><text fill="#6f42c1" dy=".3em" x="50%" y="50%">32x32</text></svg>
       <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
@@ -87,8 +330,4 @@ $root = "/workspace/LAB-02/";
     </div>
     <small class="d-block text-right mt-3">
       <a href="#">All updates</a>
-    </small>
-  </div>
-  </div>
-</body>
-</html>
+    </small> -->
