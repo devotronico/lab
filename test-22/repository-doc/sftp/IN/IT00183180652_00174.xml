@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 http://www.fatturapa.gov.it/export/fatturazione/sdi/fatturapa/v1.2/Schema_del_file_xml_FatturaPA_versione_1.2.xsd">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>02334550288</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>00174</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>1234567</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00183180652</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>I.M.C.A. s.p.a.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Provinciale San Marzano</Indirizzo>
+        <NumeroCivico>1014</NumeroCivico>
+        <CAP>84016</CAP>
+        <Comune>Pagani</Comune>
+        <Provincia>SA</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>05038060652</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>AD PACKING srl</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA MICHELE PIRONTI</Indirizzo>
+        <NumeroCivico>11</NumeroCivico>
+        <CAP>84014</CAP>
+        <Comune>NOCERA INFERIORE</Comune>
+        <Provincia>SA</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2019-01-01</Data>
+        <Numero>14/19/E</Numero>
+        <ImportoTotaleDocumento>386704.28</ImportoTotaleDocumento>
+        <Causale>Lorem Ipsum</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>EAN</CodiceTipo>
+          <CodiceValore>PF-112</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>BAKED BEANS 24x400 G</Descrizione>
+        <Quantita>1282176.00</Quantita>
+        <UnitaMisura>SW</UnitaMisura>
+        <PrezzoUnitario>0.29</PrezzoUnitario>
+        <PrezzoTotale>371831.04</PrezzoTotale>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Contributo ambientale Conai assolto</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>4.00</AliquotaIVA>
+        <ImponibileImporto>371831.04</ImponibileImporto>
+        <Imposta>14873.24</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <ImportoPagamento>386704.28</ImportoPagamento>
+        <IstitutoFinanziario>MONTE DEI PASCHI DI SIENA</IstitutoFinanziario>
+        <IBAN>IT57K0103076040000000966301</IBAN>
+        <BIC>PASCITM1SA9</BIC>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

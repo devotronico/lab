@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" versione="FPR12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>0008Z</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>C1QQYZR</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>00583390653</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>GAM GRAFICA ARTISTICA MERIDIONALE S.p.A.</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA PIEDIROCCA,7</Indirizzo>
+                <CAP>84086</CAP>
+                <Comune>ROCCAPIEMONTE</Comune>
+                <Provincia>SA</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <IscrizioneREA>
+                <Ufficio>SA</Ufficio>
+                <NumeroREA>161103</NumeroREA>
+                <CapitaleSociale>1752670.00</CapitaleSociale>
+                <SocioUnico>SM</SocioUnico>
+                <StatoLiquidazione>LN</StatoLiquidazione>
+            </IscrizioneREA>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>00183180652</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>00183180652</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>I.M.C.A. SpA</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Via Provinciale San Marzano, 101</Indirizzo>
+                <CAP>84016</CAP>
+                <Comune>PAGANI</Comune>
+                <Provincia>SA</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2019-01-30</Data>
+                <Numero>239/00</Numero>
+                <DatiBollo>
+                    <BolloVirtuale>SI</BolloVirtuale>
+                    <ImportoBollo>2.00</ImportoBollo>
+                </DatiBollo>
+                <ImportoTotaleDocumento>16381.70</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>33</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.13</IdDocumento>
+                <Data>2019-01-08</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.21</IdDocumento>
+                <Data>2019-01-10</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.21</IdDocumento>
+                <Data>2019-01-10</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.26</IdDocumento>
+                <Data>2019-01-11</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.22/19</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>8</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.29</IdDocumento>
+                <Data>2019-01-12</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>20</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.35</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>21</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.35</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.33</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.33</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.33</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>13</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.33</IdDocumento>
+                <Data>2019-01-14</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>22</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.43/19</IdDocumento>
+                <Data>2019-01-16</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>17</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.44/19</IdDocumento>
+                <Data>2019-01-16</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>15</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.32</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>23</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.41</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>30</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>24</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>27</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>56</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>7</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>41</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>8</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>53</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>9</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>25</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>10</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>28</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>11</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>57</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>13</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>42</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>14</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>54</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.40</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>15</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>18</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.38</IdDocumento>
+                <Data>2019-01-15</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>31</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.46/19</IdDocumento>
+                <Data>2019-01-16</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>35</RiferimentoNumeroLinea>
+                <IdDocumento>31\19</IdDocumento>
+                <Data>2019-01-17</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>36</RiferimentoNumeroLinea>
+                <IdDocumento>31\19</IdDocumento>
+                <Data>2019-01-17</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>38</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.48</IdDocumento>
+                <Data>2019-01-17</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>39</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.48</IdDocumento>
+                <Data>2019-01-17</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>43</RiferimentoNumeroLinea>
+                <IdDocumento>49\19</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>44</RiferimentoNumeroLinea>
+                <IdDocumento>49\19</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>45</RiferimentoNumeroLinea>
+                <IdDocumento>49\19</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>46</RiferimentoNumeroLinea>
+                <IdDocumento>49\19</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>85</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.66/19</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>47</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.52</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>48</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.52</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>50</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.52</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>51</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.52</IdDocumento>
+                <Data>2019-01-18</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>59</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.55</IdDocumento>
+                <Data>2019-01-19</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>60</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.55</IdDocumento>
+                <Data>2019-01-19</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>67</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.51</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>68</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.51</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>62</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>65</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.50</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>63</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.50</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>102</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.59/19</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>76</RiferimentoNumeroLinea>
+                <IdDocumento>ord.57</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>77</RiferimentoNumeroLinea>
+                <IdDocumento>ord.57</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>78</RiferimentoNumeroLinea>
+                <IdDocumento>ord.57</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>79</RiferimentoNumeroLinea>
+                <IdDocumento>ord.57</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>80</RiferimentoNumeroLinea>
+                <IdDocumento>ord.57</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>7</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>86</RiferimentoNumeroLinea>
+                <IdDocumento>ord.57</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>8</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>73</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.58</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>70</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.58</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>71</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.58</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>97</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.58</IdDocumento>
+                <Data>2019-01-21</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>74</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.62/19</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>100</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.60</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>95</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.64</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>87</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.64</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>88</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.64</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>89</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.64</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>90</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.69</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>91</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.69</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>81</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.69</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>82</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.68</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>3</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>83</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.68</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>4</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>92</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.68</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>5</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>93</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.68</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>6</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiOrdineAcquisto>
+                <RiferimentoNumeroLinea>98</RiferimentoNumeroLinea>
+                <IdDocumento>ORD.68</IdDocumento>
+                <Data>2019-01-22</Data>
+                <NumItem>8</NumItem>
+            </DatiOrdineAcquisto>
+            <DatiDDT>
+                <NumeroDDT>581/00</NumeroDDT>
+                <DataDDT>2019-01-16</DataDDT>
+                <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>593/00</NumeroDDT>
+                <DataDDT>2019-01-16</DataDDT>
+                <RiferimentoNumeroLinea>7</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>622/00</NumeroDDT>
+                <DataDDT>2019-01-16</DataDDT>
+                <RiferimentoNumeroLinea>9</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>10</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>11</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>12</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>651/00</NumeroDDT>
+                <DataDDT>2019-01-17</DataDDT>
+                <RiferimentoNumeroLinea>14</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>658/00</NumeroDDT>
+                <DataDDT>2019-01-17</DataDDT>
+                <RiferimentoNumeroLinea>16</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>17</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>705/00</NumeroDDT>
+                <DataDDT>2019-01-18</DataDDT>
+                <RiferimentoNumeroLinea>19</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>20</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>21</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>22</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>23</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>24</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>751/00</NumeroDDT>
+                <DataDDT>2019-01-18</DataDDT>
+                <RiferimentoNumeroLinea>26</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>27</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>779/00</NumeroDDT>
+                <DataDDT>2019-01-19</DataDDT>
+                <RiferimentoNumeroLinea>29</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>30</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>838/00</NumeroDDT>
+                <DataDDT>2019-01-21</DataDDT>
+                <RiferimentoNumeroLinea>32</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>850/00</NumeroDDT>
+                <DataDDT>2019-01-21</DataDDT>
+                <RiferimentoNumeroLinea>34</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>35</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>871/00</NumeroDDT>
+                <DataDDT>2019-01-22</DataDDT>
+                <RiferimentoNumeroLinea>37</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>38</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>933/00</NumeroDDT>
+                <DataDDT>2019-01-23</DataDDT>
+                <RiferimentoNumeroLinea>40</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>41</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>42</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>43</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>44</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>45</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>46</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>47</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>939/00</NumeroDDT>
+                <DataDDT>2019-01-23</DataDDT>
+                <RiferimentoNumeroLinea>49</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>50</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>942/00</NumeroDDT>
+                <DataDDT>2019-01-23</DataDDT>
+                <RiferimentoNumeroLinea>52</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>53</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>953/00</NumeroDDT>
+                <DataDDT>2019-01-23</DataDDT>
+                <RiferimentoNumeroLinea>55</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>56</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>966/00</NumeroDDT>
+                <DataDDT>2019-01-23</DataDDT>
+                <RiferimentoNumeroLinea>58</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>59</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>974/00</NumeroDDT>
+                <DataDDT>2019-01-23</DataDDT>
+                <RiferimentoNumeroLinea>61</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>62</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>977/00</NumeroDDT>
+                <DataDDT>2019-01-24</DataDDT>
+                <RiferimentoNumeroLinea>64</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1011/00</NumeroDDT>
+                <DataDDT>2019-01-24</DataDDT>
+                <RiferimentoNumeroLinea>66</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>67</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1038/00</NumeroDDT>
+                <DataDDT>2019-01-24</DataDDT>
+                <RiferimentoNumeroLinea>69</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>70</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1048/00</NumeroDDT>
+                <DataDDT>2019-01-25</DataDDT>
+                <RiferimentoNumeroLinea>72</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>73</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1092/00</NumeroDDT>
+                <DataDDT>2019-01-25</DataDDT>
+                <RiferimentoNumeroLinea>75</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>76</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>77</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>78</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>79</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>80</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>81</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>82</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1105/00</NumeroDDT>
+                <DataDDT>2019-01-26</DataDDT>
+                <RiferimentoNumeroLinea>84</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>85</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>86</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>87</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>88</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>89</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>90</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>91</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>92</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1129/00</NumeroDDT>
+                <DataDDT>2019-01-28</DataDDT>
+                <RiferimentoNumeroLinea>94</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1178/00</NumeroDDT>
+                <DataDDT>2019-01-28</DataDDT>
+                <RiferimentoNumeroLinea>96</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>97</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1182/00</NumeroDDT>
+                <DataDDT>2019-01-28</DataDDT>
+                <RiferimentoNumeroLinea>99</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1194/00</NumeroDDT>
+                <DataDDT>2019-01-28</DataDDT>
+                <RiferimentoNumeroLinea>101</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1244/00</NumeroDDT>
+                <DataDDT>2019-01-29</DataDDT>
+                <RiferimentoNumeroLinea>103</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>104</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>105</RiferimentoNumeroLinea>
+                <RiferimentoNumeroLinea>108</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiDDT>
+                <NumeroDDT>1250/00</NumeroDDT>
+                <DataDDT>2019-01-29</DataDDT>
+                <RiferimentoNumeroLinea>107</RiferimentoNumeroLinea>
+            </DatiDDT>
+            <DatiTrasporto>
+                <CausaleTrasporto>C/Vendita</CausaleTrasporto>
+                <NumeroColli>58</NumeroColli>
+                <Descrizione>BANCALI</Descrizione>
+            </DatiTrasporto>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>D.D.T. 581/00 del 16/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETUV 829</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MAMMA SOFIA PELATI GR.500 UV - GIAPPONE - GRAFICA IMCA</Descrizione>
+                <Quantita>40000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>222.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 827</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MAMMA SOFIA POLPA POM. GR.500 UV - GIAPPONE - GRAFICA IMCA</Descrizione>
+                <Quantita>64000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>355.20</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETN  841</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>PAONE POLPA POM. GR. 500</Descrizione>
+                <Quantita>80250.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>329.83</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01BI0G5 ETUV 177</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA BELINDA BIANCHI DI SPAGNA GR. 500 UV - PROFIT</Descrizione>
+                <Quantita>12500.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>69.38</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <Descrizione>D.D.T. 593/00 del 16/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 494</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>IMCA POLPA POM. GR.500 UV Giappone KOBE BUSSAN</Descrizione>
+                <Quantita>160000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>888.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>8</NumeroLinea>
+                <Descrizione>D.D.T. 622/00 del 16/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>9</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETN1 089</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>COSTAZZURRA POLPA POM. GR.500 - KEY TRADE/ALBEMA</Descrizione>
+                <Quantita>16000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>65.76</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>10</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETN1 395</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>COSTAZZURRA PELATI KG.3 - KEY TRADE/ALBEMA</Descrizione>
+                <Quantita>6250.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>78.69</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>11</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STNAD046</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>COSTAZZURRA COD.981751 polpa pom. 24x400g - ADESIVI</Descrizione>
+                <Quantita>600.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.04500</PrezzoUnitario>
+                <PrezzoTotale>27.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>12</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO K3 STNAD035</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>COSTAZZURRA COD.981195 pelati 6x2,55 kg - ADESIVI</Descrizione>
+                <Quantita>900.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.04500</PrezzoUnitario>
+                <PrezzoTotale>40.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>13</NumeroLinea>
+                <Descrizione>D.D.T. 651/00 del 17/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>14</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 061</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA BELINDA POLPA POM. GR.500 UV</Descrizione>
+                <Quantita>22500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>124.88</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>15</NumeroLinea>
+                <Descrizione>D.D.T. 658/00 del 17/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>16</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETUV 009</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA BELINDA PELATI KG.3 - salsati -  UV</Descrizione>
+                <Quantita>40000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01700</PrezzoUnitario>
+                <PrezzoTotale>680.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>17</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 204</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA BELINDA POLPA POM. C/ERBE GR.500 UV</Descrizione>
+                <Quantita>20000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>111.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>18</NumeroLinea>
+                <Descrizione>D.D.T. 705/00 del 18/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>19</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO G5 STN  281</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TESCO COD.164025 pelati 24x400g</Descrizione>
+                <Quantita>6240.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>31.20</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>20</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETUV 558</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TESCO PELATI GR. 500 UV</Descrizione>
+                <Quantita>130000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>721.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>21</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1K3 ETUV 100</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA BELINDA POLPA POM. KG.3 UV - F.do VERDE</Descrizione>
+                <Quantita>8500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01700</PrezzoUnitario>
+                <PrezzoTotale>144.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>22</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 578</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA BELINDA POLPA POM. GR.500 UV - GIAPPONE</Descrizione>
+                <Quantita>100000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>555.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>23</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 074</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) POLPA POM. GR.500 UV - Con Barcode</Descrizione>
+                <Quantita>59500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>330.23</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>24</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 078</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) POLPA POM. c/erbe GR.500 UV</Descrizione>
+                <Quantita>25500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>141.53</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>25</NumeroLinea>
+                <Descrizione>D.D.T. 751/00 del 18/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>26</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  078</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) COD. 012322 polpa pom. 2x12x400g</Descrizione>
+                <Quantita>2400.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>12.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>27</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  089</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) COD. 012438 polpa pom. c/erbe 12x400g.</Descrizione>
+                <Quantita>1200.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>6.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>28</NumeroLinea>
+                <Descrizione>D.D.T. 779/00 del 19/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>29</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETNN 076</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MUSGRAVE SMART BUY PELATI KG.3</Descrizione>
+                <Quantita>7500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>94.43</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>30</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETNN 784</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DIECI NATURA PELATI KG.3</Descrizione>
+                <Quantita>15000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>188.85</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>31</NumeroLinea>
+                <Descrizione>D.D.T. 838/00 del 21/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>32</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETORO576</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>POLIMARK PELATI KG. 3 st. oro-UNISOL</Descrizione>
+                <Quantita>7500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>94.43</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>33</NumeroLinea>
+                <Descrizione>D.D.T. 850/00 del 21/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>34</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETUV 400</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>REGINA SOFIA PELATI KG.3 UV</Descrizione>
+                <Quantita>7750.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.01700</PrezzoUnitario>
+                <PrezzoTotale>131.75</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>35</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO K3 STNAD042</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>REGINA SOFIA COD.211685 pelati 6x2550g - ADESIVI</Descrizione>
+                <Quantita>1250.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.04500</PrezzoUnitario>
+                <PrezzoTotale>56.25</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>36</NumeroLinea>
+                <Descrizione>D.D.T. 871/00 del 22/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>37</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETORO268</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>VICTOR PELATI KG.3 st. oro</Descrizione>
+                <Quantita>15000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>188.85</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>38</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO K3 STN  142</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>VICTOR COD.020429 pelati 6x2650ml</Descrizione>
+                <Quantita>2700.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>13.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>39</NumeroLinea>
+                <Descrizione>D.D.T. 933/00 del 23/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>40</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  432</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORE VOL. polpa c/erbe 2x12x400g COD.145974</Descrizione>
+                <Quantita>600.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>3.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>41</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV1161</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORES POLPA POM. C/ERBE GR.500 UV</Descrizione>
+                <Quantita>10250.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>56.89</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>42</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETN  691</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>FARMFOODS POLPA POM. GR.500</Descrizione>
+                <Quantita>100000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>411.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>43</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  403</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>FARMFOODS COD. 685464 polpa pom. 12x400g</Descrizione>
+                <Quantita>8100.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>40.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>44</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETN  234</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>FARMFOODS PELATI GR.500</Descrizione>
+                <Quantita>50000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>205.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>45</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO G5 STN  305</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>FARMFOODS COD. 685457 pelati 12x400g</Descrizione>
+                <Quantita>4100.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>20.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>46</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETN  439</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MELISSA TOMATERA PELATI GR.500 - PRIMO GUSTO</Descrizione>
+                <Quantita>42000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>172.62</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>47</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO G5 STN  270</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MELISSA TOMATERA COD.096022 pelati 12x400g</Descrizione>
+                <Quantita>3600.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>18.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>48</NumeroLinea>
+                <Descrizione>D.D.T. 939/00 del 23/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>49</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETN  427</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MELISSA TOMATERA POLPA POM. GR.500 - PRIMO GUSTO</Descrizione>
+                <Quantita>90000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>369.90</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>50</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  360</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MELISSA TOMATERA 096015 polpa pom. 12x400g</Descrizione>
+                <Quantita>8100.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>40.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>51</NumeroLinea>
+                <Descrizione>D.D.T. 942/00 del 23/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>52</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  187</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORE VOL. polpa c/aglio 2x12x400g</Descrizione>
+                <Quantita>300.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>1.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>53</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV1162</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORES POLPA POM. C/AGLIO GR.500 UV</Descrizione>
+                <Quantita>7500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>41.63</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>54</NumeroLinea>
+                <Descrizione>D.D.T. 953/00 del 23/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>55</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  263</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORES VOL. polpa pom. 2x12x400g</Descrizione>
+                <Quantita>1200.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>6.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>56</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV1160</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORES POLPA POM. GR.500 UV - CON BARCODE</Descrizione>
+                <Quantita>29000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>160.95</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>57</NumeroLinea>
+                <Descrizione>D.D.T. 966/00 del 23/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>58</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETN  672</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LE CABANON POLPA POM. GR.500 Con barcode</Descrizione>
+                <Quantita>50000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>205.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>59</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETN  716</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LE CABANON PELATI GR.500</Descrizione>
+                <Quantita>40000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>164.40</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>60</NumeroLinea>
+                <Descrizione>D.D.T. 974/00 del 23/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>61</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 563</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TESCO POLPA GR.500 UV Finely</Descrizione>
+                <Quantita>132000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>732.60</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>62</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  119</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TESCO COD.612294 polpa pom. finely 24x400g</Descrizione>
+                <Quantita>9000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>45.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>63</NumeroLinea>
+                <Descrizione>D.D.T. 977/00 del 24/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>64</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 563</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>TESCO POLPA GR.500 UV Finely</Descrizione>
+                <Quantita>88000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>488.40</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>65</NumeroLinea>
+                <Descrizione>D.D.T. 1011/00 del 24/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>66</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETN  967</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ORKIDE' PELATI KG.3</Descrizione>
+                <Quantita>8000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>100.72</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>67</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO K3 STN  327</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ORKIDE' COD.102445 pelati 6x2550g - REF. NR. 501483</Descrizione>
+                <Quantita>1800.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>9.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>68</NumeroLinea>
+                <Descrizione>D.D.T. 1038/00 del 24/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>69</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1K3 ETN  404</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>WHITE HAT POLPA POM. KG.3</Descrizione>
+                <Quantita>6250.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>78.69</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>70</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1K3 STN  131</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>WHITE HAT COD.806863 polpa pom. 6x2,5 kg</Descrizione>
+                <Quantita>1800.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>9.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>71</NumeroLinea>
+                <Descrizione>D.D.T. 1048/00 del 25/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>72</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1K3 ETN  997</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MUSGRAVE EXCELLENCE POLPA POM. KG.3</Descrizione>
+                <Quantita>7500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>94.43</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>73</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETUV 526</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DEL MONTE PELATI GR. 500 UV FRANCIA</Descrizione>
+                <Quantita>52000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>288.60</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>74</NumeroLinea>
+                <Descrizione>D.D.T. 1092/00 del 25/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>75</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV1161</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORES POLPA POM. C/ERBE GR.500 UV</Descrizione>
+                <Quantita>28000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>155.40</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>76</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  432</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORE VOL. polpa c/erbe 2x12x400g COD.145974</Descrizione>
+                <Quantita>1200.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>6.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>77</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV1162</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORES POLPA POM. C/AGLIO GR.500 UV</Descrizione>
+                <Quantita>25000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>138.75</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>78</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  187</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>DUNNES STORE VOL. polpa c/aglio 2x12x400g</Descrizione>
+                <Quantita>1200.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>6.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>79</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 256</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) POLPA POM. GR.500 UV - Senza Barcode</Descrizione>
+                <Quantita>140000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>777.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>80</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  077</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) COD. 012186 polpa pom. 12x400g.</Descrizione>
+                <Quantita>1500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>7.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>81</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETN  985</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SANAM PELATI KG.3</Descrizione>
+                <Quantita>15000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>188.85</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>82</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO K3 STN  174</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SANAM COD.009732 pelati 6x2550g</Descrizione>
+                <Quantita>3000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>15.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>83</NumeroLinea>
+                <Descrizione>D.D.T. 1105/00 del 26/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>84</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETNN 393</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>OMACO PELATI KG.3</Descrizione>
+                <Quantita>6250.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>78.69</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>85</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1C  STN  003</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) COD. 100104 polpa pom. 3x8x400g</Descrizione>
+                <Quantita>6600.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>33.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>86</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETUV 253</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) PELATI GR.500 UV SENZA BARCODE</Descrizione>
+                <Quantita>52500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>291.38</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>87</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO C  STN  001</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) COD. 100050 pelati 3x8x400g</Descrizione>
+                <Quantita>2000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>10.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>88</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO K3 ETN  656</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>LA PALMESINA PELATI KG.3</Descrizione>
+                <Quantita>12000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>151.08</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>89</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 074</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) POLPA POM. GR.500 UV - Con Barcode</Descrizione>
+                <Quantita>52500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>291.38</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>90</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1G5 STN  078</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) COD. 012322 polpa pom. 2x12x400g</Descrizione>
+                <Quantita>2000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>10.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>91</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1K3 ETN  549</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SANAM POLPA POM. KG.3</Descrizione>
+                <Quantita>7500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>94.43</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>92</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1K3 STN  152</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SANAM COD.006564 polpa 6x2500g</Descrizione>
+                <Quantita>1500.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00500</PrezzoUnitario>
+                <PrezzoTotale>7.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>93</NumeroLinea>
+                <Descrizione>D.D.T. 1129/00 del 28/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>94</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1K3 ETUV 221</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>IMCA POLPA POM. KG.3 UV Giappone - KOBE BUSSAN - c/pesi 2500/1500</Descrizione>
+                <Quantita>6250.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.01700</PrezzoUnitario>
+                <PrezzoTotale>106.25</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>95</NumeroLinea>
+                <Descrizione>D.D.T. 1178/00 del 28/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>96</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1K3 STNAD041</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MUSGRAVE COD. 447112 polpa pom. 6x2.55 Kg.-ADESIVI</Descrizione>
+                <Quantita>1250.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.04500</PrezzoUnitario>
+                <PrezzoTotale>56.25</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>97</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO1K3 STNAD041</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MUSGRAVE COD. 447112 polpa pom. 6x2.55 Kg.-ADESIVI</Descrizione>
+                <Quantita>1250.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.04500</PrezzoUnitario>
+                <PrezzoTotale>56.25</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>98</NumeroLinea>
+                <Descrizione>D.D.T. 1182/00 del 28/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>99</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1G5 ETUV 916</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>SELECT WOOLWORTHS POLPA POM.C/BASILICO E ORIGANO GR.500 UV tipo x IMCA</Descrizione>
+                <Quantita>150000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.00555</PrezzoUnitario>
+                <PrezzoTotale>832.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>100</NumeroLinea>
+                <Descrizione>D.D.T. 1194/00 del 28/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>101</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>03PO1C  CLN  128</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>ROMA (UK) CLUSTER POLPA POM. 3x400g - ALTO LUCIDO</Descrizione>
+                <Quantita>54000.00</Quantita>
+                <UnitaMisura>N.</UnitaMisura>
+                <PrezzoUnitario>0.03800</PrezzoUnitario>
+                <PrezzoTotale>2052.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>102</NumeroLinea>
+                <Descrizione>D.D.T. 1244/00 del 29/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>103</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO G5 ETNN 629</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>BANDERA PELATI GR.500</Descrizione>
+                <Quantita>225000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.00411</PrezzoUnitario>
+                <PrezzoTotale>924.75</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>104</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>04PO G5 STN  328</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>BANDERA COD.170520 pelati 24x400g-ADESIVI</Descrizione>
+                <Quantita>9500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.04500</PrezzoUnitario>
+                <PrezzoTotale>427.50</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>105</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01SU K3 ETN  010</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>CUCINA (UK) PASSATA SUGO DI POM. KG.3</Descrizione>
+                <Quantita>8000.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>100.72</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>106</NumeroLinea>
+                <Descrizione>D.D.T. 1250/00 del 29/01/2019</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>107</NumeroLinea>
+                <CodiceArticolo>
+                    <CodiceTipo>Codice Art. fornitore</CodiceTipo>
+                    <CodiceValore>01PO1K3 ETN  997</CodiceValore>
+                </CodiceArticolo>
+                <Descrizione>MUSGRAVE EXCELLENCE POLPA POM. KG.3</Descrizione>
+                <Quantita>7500.00</Quantita>
+                <UnitaMisura>NR</UnitaMisura>
+                <PrezzoUnitario>0.01259</PrezzoUnitario>
+                <PrezzoTotale>94.43</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>108</NumeroLinea>
+                <Descrizione>CONTRIBUTO CONAI ASSOLTO</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>109</NumeroLinea>
+                <Descrizione>Lettera d'intento n. 26 del 20/12/2018 ns protocollo n.17 del 28/12/2018 protocollo AdE n.18122012385634230 progr.26 del 20/12/2018</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>110</NumeroLinea>
+                <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+                <Descrizione>Addebito spese bolli</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>2.00000</PrezzoUnitario>
+                <PrezzoTotale>2.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N3</Natura>
+                <ImponibileImporto>16379.70</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+            </DatiRiepilogo>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <ImponibileImporto>2.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP12</ModalitaPagamento>
+                <DataRiferimentoTerminiPagamento>2019-01-30</DataRiferimentoTerminiPagamento>
+                <GiorniTerminiPagamento>60</GiorniTerminiPagamento>
+                <DataScadenzaPagamento>2019-03-31</DataScadenzaPagamento>
+                <ImportoPagamento>16381.70</ImportoPagamento>
+                <ABI>01030</ABI>
+                <CAB>76040</CAB>
+            </DettaglioPagamento>
+        </DatiPagamento>
+        <Allegati>
+            <NomeAttachment>FilePdf_201900007196.pdf</NomeAttachment>
+            <FormatoAttachment>pdf</FormatoAttachment>
+            <Attachment>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L1R5cGUgL0ZvbnQgCi9TdWJ0eXBlIC9UcnVlVHlwZSAKL0Jhc2VGb250IDI2IDAgUiAKL0ZpcnN0Q2hhciAzMiAKL0xhc3RDaGFyIDIyNCAKL1dpZHRocyAyNSAwIFIgCi9Gb250RGVzY3JpcHRvciAyOCAwIFIgCi9Ub1VuaWNvZGUgMjcgMCBSIAo+PiAKZW5kb2JqIAoxMCAwIG9iaiAKPDwgCi9UeXBlIC9Gb250IAovU3VidHlwZSAvVHJ1ZVR5cGUgCi9CYXNlRm9udCA0NCAwIFIgCi9GaXJzdENoYXIgMzIgCi9MYXN0Q2hhciAxMjIgCi9XaWR0aHMgNDMgMCBSIAovRm9udERlc2NyaXB0b3IgNDYgMCBSIAovVG9Vbmljb2RlIDQ1IDAgUiAKPj4gCmVuZG9iaiAKMTEgMCBvYmogCjw8IAovVHlwZSAvRm9udCAKL1N1YnR5cGUgL1RydWVUeXBlIAovQmFzZUZvbnQgMzggMCBSIAovRmlyc3RDaGFyIDMyIAovTGFzdENoYXIgMTE2IAovV2lkdGhzIDM3IDAgUiAKL0ZvbnREZXNjcmlwdG9yIDQwIDAgUiAKL1RvVW5pY29kZSAzOSAwIFIgCj4+IAplbmRvYmogCjEyIDAgb2JqIAo8PCAKL1R5cGUgL0ZvbnQgCi9TdWJ0eXBlIC9UcnVlVHlwZSAKL0Jhc2VGb250IDMyIDAgUiAKL0ZpcnN0Q2hhciAzMiAKL0xhc3RDaGFyIDExNyAKL1dpZHRocyAzMSAwIFIgCi9Gb250RGVzY3JpcHRvciAzNCAwIFIgCi9Ub1VuaWNvZGUgMzMgMCBSIAo+PiAKZW5kb2JqIAoxNCAwIG9iaiAKPDwgCi9Qcm9jU2V0IDE1IDAgUiAKL0ZvbnQgPDwgCi85IDkgMCBSICAKL2EgMTAgMCBSICAKL2IgMTEgMCBSICAKL2MgMTIgMCBSICAKPj4gCj4+IAplbmRvYmogCjE1IDAgb2JqIApbIC9QREYgL1RleHQgIF0gCmVuZG9iaiAKMTYgMCBvYmogCjw8IAovVHlwZSAvUGFnZSAKL1BhcmVudCAyIDAgUiAKL1Jlc291cmNlcyAxNCAwIFIgCi9Db250ZW50cyBbIDEzIDAgUiBdIAo+PiAKZW5kb2JqIAoxOCAwIG9iaiAKPDwgCi9Qcm9jU2V0IDE5IDAgUiAKL0ZvbnQgPDwgCi85IDkgMCBSICAKL2EgMTAgMCBSICAKL2IgMTEgMCBSICAKL2MgMTIgMCBSICAKPj4gCj4+IAplbmRvYmogCjE5IDAgb2JqIApbIC9QREYgL1RleHQgIF0gCmVuZG9iaiAKMjAgMCBvYmogCjw8IAovVHlwZSAvUGFnZSAKL1BhcmVudCAyIDAgUiAKL1Jlc291cmNlcyAxOCAwIFIgCi9Db250ZW50cyBbIDE3IDAgUiBdIAo+PiAKZW5kb2JqIAoyMiAwIG9iaiAKPDwgCi9Qcm9jU2V0IDIzIDAgUiAKL0ZvbnQgPDwgCi85IDkgMCBSICAKL2EgMTAgMCBSICAKL2IgMTEgMCBSICAKL2MgMTIgMCBSICAKPj4gCj4+IAplbmRvYmogCjIzIDAgb2JqIApbIC9QREYgL1RleHQgIF0gCmVuZG9iaiAKMjQgMCBvYmogCjw8IAovVHlwZSAvUGFnZSAKL1BhcmVudCAyIDAgUiAKL1Jlc291cmNlcyAyMiAwIFIgCi9Db250ZW50cyBbIDIxIDAgUiBdIAo+PiAKZW5kb2JqIAoyNSAwIG9iaiAKWyAKMjI4IAowIAowIAowIAowIAo3MjkgCjAgCjE1NyAKMjczIAoyNzMgCjAgCjAgCjIyOCAKMjczIAoyMjggCjIyOCAKNDU2IAo0NTYgCjQ1NiAKNDU2IAo0NTYgCjQ1NiAKNDU2IAo0NTYgCjQ1NiAKNDU2IAowIAowIAowIAowIAowIAowIAowIAo1NDcgCjU0NyAKNTkyIAo1OTIgCjU0NyAKNTAxIAo2MzggCjU5MiAKMjI4IAowIAo1NDcgCjQ1NiAKNjgzIAo1OTIgCjYzOCAKNTQ3IAo2MzggCjU5MiAKNTQ3IAo1MDEgCjU5MiAKNTQ3IAo3NzQgCjU0NyAKNTQ3IAo1MDEgCjAgCjAgCjAgCjAgCjAgCjAgCjQ1NiAKNDU2IAo0MTAgCjQ1NiAKNDU2IAoyMjggCjQ1NiAKMCAKMTgyIAowIAo0MTAgCjE4MiAKNjgzIAo0NTYgCjQ1NiAKNDU2IAowIAoyNzMgCjQxMCAKMjI4IAo0NTYgCjQxMCAKMCAKNDEwIAo0MTAgCjQxMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKNDU2IApdIAplbmRvYmogCjI2IDAgb2JqIAovQUFBQUFBK0FyaWFsLU5hcnJvdyAKZW5kb2JqIAoyOCAwIG9iaiAKPDwgCi9UeXBlIC9Gb250RGVzY3JpcHRvciAKL0FzY2VudCA5MjIgCi9DYXBIZWlnaHQgNTAwIAovRGVzY2VudCAtMjEwIAovRmxhZ3MgNSAKL0ZvbnRCQm94IDI5IDAgUiAKL0ZvbnROYW1lIDI2IDAgUiAKL0l0YWxpY0FuZ2xlIDAKL1N0ZW1WIDAgCi9TdGVtSCAwIAovQXZnV2lkdGggMzYyIAovRm9udEZpbGUyIDMwIDAgUiAKL0xlYWRpbmcgMCAKL01heFdpZHRoIDExODIgCi9NaXNzaW5nV2lkdGggMzYyIAovWEhlaWdodCAwIAo+PiAKZW5kb2JqIAoyOSAwIG9iaiAKWyAtMTgyIC0zMDcgMTAwMCAxMDg2IF0gCmVuZG9iaiAKMzEgMCBvYmogClsgCjI1MCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMjUwIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAo2NjcgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjQ0NCAKNTAwIAowIAowIAo0NDQgCjAgCjAgCjAgCjI3OCAKMCAKMCAKMjc4IAo3NzggCjUwMCAKNTAwIAowIAowIAozMzMgCjM4OSAKMjc4IAo1MDAgCl0gCmVuZG9iaiAKMzIgMCBvYmogCi9BQUFBQUQrVGltZXMtTmV3LVJvbWFuIAplbmRvYmogCjM0IDAgb2JqIAo8PCAKL1R5cGUgL0ZvbnREZXNjcmlwdG9yIAovQXNjZW50IDg5MSAKL0NhcEhlaWdodCA1MDAgCi9EZXNjZW50IC0yMTYgCi9GbGFncyA1IAovRm9udEJCb3ggMzUgMCBSIAovRm9udE5hbWUgMzIgMCBSIAovSXRhbGljQW5nbGUgMAovU3RlbVYgMCAKL1N0ZW1IIDAgCi9BdmdXaWR0aCA0MDEgCi9Gb250RmlsZTIgMzYgMCBSIAovTGVhZGluZyAwIAovTWF4V2lkdGggMjYxNCAKL01pc3NpbmdXaWR0aCA0MDEgCi9YSGVpZ2h0IDAgCj4+IAplbmRvYmogCjM1IDAgb2JqIApbIC01NjggLTMwNyAyMDQ2IDEwNDAgXSAKZW5kb2JqIAozNyAwIG9iaiAKWyAKMjc4IAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAowIAo3MjIgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjU1NiAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKMCAKNTU2IAowIAowIAowIAowIAoyNzggCl0gCmVuZG9iaiAKMzggMCBvYmogCi9BQUFBQUMrQXJpYWwgCmVuZG9iaiAKNDAgMCBvYmogCjw8IAovVHlwZSAvRm9udERlc2NyaXB0b3IgCi9Bc2NlbnQgOTA1IAovQ2FwSGVpZ2h0IDUwMCAKL0Rlc2NlbnQgLTIxMiAKL0ZsYWdzIDUgCi9Gb250QkJveCA0MSAwIFIgCi9Gb250TmFtZSAzOCAwIFIgCi9JdGFsaWNBbmdsZSAwCi9TdGVtViAwIAovU3RlbUggMCAKL0F2Z1dpZHRoIDQ0MSAKL0ZvbnRGaWxlMiA0MiAwIFIgCi9MZWFkaW5nIDAgCi9NYXhXaWR0aCAyNjY1IAovTWlzc2luZ1dpZHRoIDQ0MSAKL1hIZWlnaHQgMCAKPj4gCmVuZG9iaiAKNDEgMCBvYmogClsgLTY2NSAtMzI1IDIwMDAgMTA0MCBdIAplbmRvYmogCjQzIDAgb2JqIApbIAoyMjggCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjI3MyAKMjczIAowIAowIAoyMjggCjAgCjIyOCAKMCAKNDU2IAo0NTYgCjAgCjAgCjQ1NiAKMCAKNDU2IAowIAo0NTYgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjU5MiAKMCAKNTkyIAowIAowIAowIAo2MzggCjAgCjIyOCAKMCAKMCAKMCAKNjgzIAo1OTIgCjAgCjU0NyAKMCAKMCAKNTQ3IAowIAowIAo1NDcgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjAgCjQ1NiAKMCAKNDU2IAowIAo0NTYgCjAgCjAgCjAgCjIyOCAKMCAKMCAKMjI4IAowIAo1MDEgCjUwMSAKNTAxIAowIAozMTkgCjAgCjAgCjAgCjQ1NiAKMCAKMCAKMCAKNDEwIApdIAplbmRvYmogCjQ0IDAgb2JqIAovQUFBQUFCK0FyaWFsLU5hcnJvdy1Cb2xkIAplbmRvYmogCjQ2IDAgb2JqIAo8PCAKL1R5cGUgL0ZvbnREZXNjcmlwdG9yIAovQXNjZW50IDkzMyAKL0NhcEhlaWdodCA1MDAgCi9EZXNjZW50IC0yMTAgCi9GbGFncyA1IAovRm9udEJCb3ggNDcgMCBSIAovRm9udE5hbWUgNDQgMCBSIAovSXRhbGljQW5nbGUgMAovU3RlbVYgMCAKL1N0ZW1IIDAgCi9BdmdXaWR0aCAzOTIgCi9Gb250RmlsZTIgNDggMCBSIAovTGVhZGluZyAwIAovTWF4V2lkdGggMTEzNyAKL01pc3NpbmdXaWR0aCAzOTIgCi9YSGVpZ2h0IDAgCj4+IAplbmRvYmogCjQ3IDAgb2JqIApbIC0xMzcgLTMwNyAxMDAwIDExMDkgXSAKZW5kb2JqIAo0OSAwIG9iaiAKKFBvd2VyZWQgQnkgQ3J5c3RhbCkgCmVuZG9iaiAKNTAgMCBvYmogCihDcnlzdGFsIFJlcG9ydHMpIAplbmRvYmogCjUxIDAgb2JqIAooRmF0dHVyYSByaWVwaWxvZ2F0aXZhKSAKZW5kb2JqIAo1MiAwIG9iaiAKPDwgCi9Qcm9kdWNlciAoUG93ZXJlZCBCeSBDcnlzdGFsKSAgCi9UaXRsZSAoRmF0dHVyYSByaWVwaWxvZ2F0aXZhKSAgCi9DcmVhdG9yIChDcnlzdGFsIFJlcG9ydHMpICAKPj4gCmVuZG9iaiAKeHJlZiAKMCA1MyAKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE3IDAwMDAwIG4gCjAwMDAwNjA3NzEgMDAwMDAgbiAKMDAwMDA2MDg5MSAwMDAwMCBuIAowMDAwMDYwOTI1IDAwMDAwIG4gCjAwMDAwMDAxOTQgMDAwMDAgbiAKMDAwMDA2MDk1OSAwMDAwMCBuIAowMDAwMDYxMDYxIDAwMDAwIG4gCjAwMDAwNjEwOTUgMDAwMDAgbiAKMDAwMDA2MTE4NyAwMDAwMCBuIAowMDAwMDYxMzUyIDAwMDAwIG4gCjAwMDAwNjE1MTggMDAwMDAgbiAKMDAwMDA2MTY4NCAwMDAwMCBuIAowMDAwMDAyNzQ4IDAwMDAwIG4gCjAwMDAwNjE4NTAgMDAwMDAgbiAKMDAwMDA2MTk1NCAwMDAwMCBuIAowMDAwMDYxOTg5IDAwMDAwIG4gCjAwMDAwMDUyOTEgMDAwMDAgbiAKMDAwMDA2MjA4NCAwMDAwMCBuIAowMDAwMDYyMTg4IDAwMDAwIG4gCjAwMDAwNjIyMjMgMDAwMDAgbiAKMDAwMDAwNzgxNyAwMDAwMCBuIAowMDAwMDYyMzE4IDAwMDAwIG4gCjAwMDAwNjI0MjIgMDAwMDAgbiAKMDAwMDA2MjQ1NyAwMDAwMCBuIAowMDAwMDYyNTUyIDAwMDAwIG4gCjAwMDAwNjMyODkgMDAwMDAgbiAKMDAwMDAxMDU5NSAwMDAwMCBuIAowMDAwMDYzMzI5IDAwMDAwIG4gCjAwMDAwNjM1OTYgMDAwMDAgbiAKMDAwMDAxMTM1MyAwMDAwMCBuIAowMDAwMDYzNjM5IDAwMDAwIG4gCjAwMDAwNjM5NTEgMDAwMDAgbiAKMDAwMDAyODAyOSAwMDAwMCBuIAowMDAwMDYzOTk0IDAwMDAwIG4gCjAwMDAwNjQyNjEgMDAwMDAgbiAKMDAwMDAyODQzNSAwMDAwMCBuIAowMDAwMDY0MzA0IDAwMDAwIG4gCjAwMDAwNjQ1OTMgMDAwMDAgbiAKMDAwMDA0Mjg0NCAwMDAwMCBuIAowMDAwMDY0NjI2IDAwMDAwIG4gCjAwMDAwNjQ4OTMgMDAwMDAgbiAKMDAwMDA0MzE3MCAwMDAwMCBuIAowMDAwMDY0OTM2IDAwMDAwIG4gCjAwMDAwNjUyOTMgMDAwMDAgbiAKMDAwMDA1MDQ1NCAwMDAwMCBuIAowMDAwMDY1MzM4IDAwMDAwIG4gCjAwMDAwNjU2MDUgMDAwMDAgbiAKMDAwMDA1MDk2MiAwMDAwMCBuIAowMDAwMDY1NjQ4IDAwMDAwIG4gCjAwMDAwNjU2ODggMDAwMDAgbiAKMDAwMDA2NTcyNSAwMDAwMCBuIAowMDAwMDY1NzY4IDAwMDAwIG4gCnRyYWlsZXIgCjw8IAovU2l6ZSA1MyAKL1Jvb3QgMSAwIFIgCi9JbmZvIDUyIDAgUiAKPj4gCnN0YXJ0eHJlZiAKNjU4ODkgCiUlRU9GIAo=</Attachment>
+        </Allegati>
+    </FatturaElettronicaBody>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-c803f6ce19a32b0cbd661eb05dd40ef9"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>hCoDmz0MOknchJsDyyqU4vqX3/E07ioJH+9ROqsY+jo=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-c803f6ce19a32b0cbd661eb05dd40ef9"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>xbrvO+IdOYA8wqjYdQAHULJLvakS5vO332GTLwjvxLs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-c803f6ce19a32b0cbd661eb05dd40ef9">cBsd1ynrheClHLxKPHGc0g4gW9XRjU4tzmoBEaN9PO+aMmdG2HDUtjOXEz15gutJLqGgvycq7eqXLum54yac9cjhdb3G/Wpvwn31FZaP6cjtZZH/emTS3wkbv/Ba6m6LzboDSApdIOBKStxQ7CfwZadHgEGHT1ZOC9ADw/ZAsLwH2pb+Ev4lLq8Z6RdJa6vIei8rSgxezuAdGBI/8S5waCf6bnBdzzOO4zf3j4RnzoTaetMIF+5pfYhV+/Mq2rmrNcCsaOB3tVp4q6wHnC0fTEiOhSXjdrlJ2lQwHmpwQWJpCfJlsOv5zukEZniKwTEUDb5GVbRh5zMjxU0k0or9IA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-c803f6ce19a32b0cbd661eb05dd40ef9"><xades:SignedProperties Id="xades-id-c803f6ce19a32b0cbd661eb05dd40ef9"><xades:SignedSignatureProperties><xades:SigningTime>2019-01-30T12:23:18Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>IoxqxvKlcid+Ul8y6xoggwfld+T1sTaesRXvY8sqO1o=</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGOMIGBpH8wfTELMAkGA1UEBhMCSVQxJDAiBgNVBAoMG05hbWlyaWFsIFMucC5BLi8wMjA0NjU3MDQyNjEgMB4GA1UECwwXQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxJjAkBgNVBAMMHU5hbWlyaWFsIENBIEZpcm1hIFF1YWxpZmljYXRhAgh4ZkpnSDVI6A==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#null"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ns3:FatturaElettronica>

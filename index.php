@@ -303,10 +303,35 @@ $root = "/workspace/LAB-02/";
         </div>
       </div>
       <div class="col-11" style="padding-top:10px;">
-      <span class="tag tag-number">22</span><a href="test-22/index.php">Empty</a><span class="tag tag-language">php</span>
+      <span class="tag tag-number">22</span><a href="test-22/index.php">Download PDF</a><span class="tag tag-language">php</span>
+        <p>Download PDF<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-23/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">23</span><a href="test-23/index.php">Import zip</a><span class="tag tag-language">php</span>
+        <p>Import zip<span class="tag tag-status">to fix</span></p>
+      </div>
+    </div>
+
+    <div class="row border-bottom">
+      <div class="col-auto">
+        <div style="padding-top:18px;font-size:1.5em;color:blue;">
+          <a href="test-24/index.php"><i class="fas fa-flask"></i></a>
+        </div>
+      </div>
+      <div class="col-11" style="padding-top:10px;">
+      <span class="tag tag-number">24</span><a href="test-24/index.php">Empty</a><span class="tag tag-language">php</span>
         <p>Empty<span class="tag tag-status">empty</span></p>
       </div>
     </div>
+
  
   </div>
 </body>

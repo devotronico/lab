@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FileMetadati xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fattura/messaggi/v1.0" versione="1.0">
+    <IdentificativoSdI>243436724</IdentificativoSdI>
+    <NomeFile>IT04030410288_0Jz3B.XML.p7m</NomeFile>
+    <Hash>0f7e6d497471995d9585f93e366562e89f69e236be3f3d90eff26e9116f76497</Hash>
+    <CodiceDestinatario>C1QQYZR</CodiceDestinatario>
+    <Formato>FPR12</Formato>
+    <TentativiInvio>1</TentativiInvio>
+    <MessageId>1368996351</MessageId>
+</ns3:FileMetadati>

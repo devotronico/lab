@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FileMetadati xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fattura/messaggi/v1.0" versione="1.0">
+    <IdentificativoSdI>238067831</IdentificativoSdI>
+    <NomeFile>IT01641790702_aAeoJ.xml</NomeFile>
+    <Hash>5402569480b7b68b3f8c45fce58433bf4a61e19d306f9fa5dd8e691d7087ca68</Hash>
+    <CodiceDestinatario>C1QQYZR</CodiceDestinatario>
+    <Formato>FPR12</Formato>
+    <TentativiInvio>1</TentativiInvio>
+    <MessageId>1359785101</MessageId>
+</ns3:FileMetadati>
