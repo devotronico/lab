@@ -1,5 +1,5 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-09</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-09</h1>";
 
 
 echo "array_map";

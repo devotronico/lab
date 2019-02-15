@@ -1,7 +1,7 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-21</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-21</h1>";
 
-echo "";
+echo "Raccolta query";
 echo "<br><br>";
 
 $sql = $conn->query("SELECT * FROM ftout");

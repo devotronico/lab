@@ -1,5 +1,5 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-01</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-01</h1>";
 echo 'PHP Version: ' . PHP_VERSION . PHP_EOL;
 echo "<br>";
 $var = [];

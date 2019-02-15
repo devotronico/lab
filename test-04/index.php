@@ -1,5 +1,5 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-04</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-04</h1>";
 /*
 $user = new StdClass();
 $user->name = 'Daniele';

@@ -1,6 +1,6 @@
 <?php
 
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-02</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-02</h1>";
 
 /**
  * Passa un array di valori al costruttore della classe

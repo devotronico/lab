@@ -1,5 +1,5 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-10</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-10</h1>";
 
 
 echo "array_reduce";
@@ -23,7 +23,6 @@ echo "<br><br>";
 // nel caso di un array con elementi [3,4,5] il loro valore è di 3
 function sum($carry, $item)
 {
-
     $carry += $item;
     return $carry;
 }

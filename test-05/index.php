@@ -1,5 +1,5 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-05</h1><br>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-05</h1><br>";
 // header('Content-type: text/plain');
 
 echo "CLOSURE FUNCTION";

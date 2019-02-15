@@ -1,5 +1,5 @@
 <?php
-echo "<h1><a href='/LAB/index.php'><</a>&nbspTEST-11</h1>";
+echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-11</h1>";
 
 
 echo "array_filter";
