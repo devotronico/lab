@@ -327,8 +327,8 @@ $root = "/workspace/LAB-02/";
         </div>
       </div>
       <div class="col-11" style="padding-top:10px;">
-      <span class="tag tag-number">24</span><a href="test-24/index.php">Empty</a><span class="tag tag-language">php</span>
-        <p>Empty<span class="tag tag-status">empty</span></p>
+      <span class="tag tag-number">24</span><a href="test-24/index.php">Select2</a><span class="tag tag-language">php</span>
+        <p>Libreria Select2<span class="tag tag-status">to fix</span></p>
       </div>
     </div>
 
