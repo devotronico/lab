@@ -1,120 +1,38 @@
 <?php
-echo "<h1><a href='/workspace/LAB/index.php'><</a>&nbspTEST-01</h1>";
-echo 'PHP Version: ' . PHP_VERSION . PHP_EOL;
-echo "<br>";
-$var = [];
-var_dump($var);
+/*
+## session_name('NOMEMIASESSIONE');
+### header('Cache-Control: no cache') [index.php]
+### prevent-browser-cache-for-php-site
+### setcookie("PHPSESSID","",time()-3600,"/"); // 
+set_time_limit(300);
+ini_set('max_execution_time', 300)
 
-$test = "";
-if (is_null($var)) {$test .= "null, ";}
-if (isset($var)) {$test .= "settata, ";}
-if (!$var) {$test .= "false, ";}
-if (empty($var)) {$test .= "empty, ";}
-echo $test;
 
-echo "<br>---------------------------------------------<br>";
-function fn()
-{
-    return __FUNCTION__;
-}
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
 
-echo fn();
-echo "<br>";
-echo basename(__FILE__);
-echo "<br>";
-// require(dirname(__FILE__).'/'.'myParent.php');
 
-// include_once(dirname(__FILE__) . '/database.class.php');
+$mysqli::warning_count
+mysqli::debug()
+mysqli::get_connection_stats()
+mysqli::stat
+---
 
-$containing_dir = basename(dirname(__FILE__));
-echo $containing_dir;
+JS
+JSON.stringify(data);
+removeAttribute
+toFixed(2)
+parseFloat
+match
+onchange
+remove()
+insertRow
+cloneNode
+insertCell
 
-echo "<br>---------------------------------------------<br>";
 
-$site = (isset($_SERVER['HTTPS']) ? "https" : "http"); // http
-echo $site;
-echo "<br>";
-$site = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST']; // http://localhost
-echo $site;
-echo "<br>";
-$site = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; // http://localhost/job-01/
-echo $site;
 
-echo "<br>---------------------------------------------<br>";
 
-$url = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF']; // http://localhost/job-01/
-//$url = 'http://username:password@hostname:9090/path?arg=value#anchor';
-$url = $url . "/?arg=value#anchor";
-echo $url;
-echo "<pre>";
-print_r(parse_url($url));
-echo "<br>";
-echo parse_url($url, PHP_URL_SCHEME);
-echo "<br>";
-echo parse_url($url, PHP_URL_USER);
-echo "<br>";
-echo parse_url($url, PHP_URL_PASS);
-echo "<br>";
-echo parse_url($url, PHP_URL_HOST);
-echo "<br>";
-echo parse_url($url, PHP_URL_PORT);
-echo "<br>";
-echo parse_url($url, PHP_URL_PATH);
-echo "<br>";
-echo parse_url($url, PHP_URL_QUERY);
-echo "<br>";
-echo parse_url($url, PHP_URL_FRAGMENT);
-echo "<br>";
 
-echo "<br>---------------------------------------------<br>";
-echo "<br><br><br>";
-$indicesServer = array('PHP_SELF',
-    'argv',
-    'argc',
-    'GATEWAY_INTERFACE',
-    'SERVER_ADDR',
-    'SERVER_NAME',
-    'SERVER_SOFTWARE',
-    'SERVER_PROTOCOL',
-    'REQUEST_METHOD',
-    'REQUEST_TIME',
-    'REQUEST_TIME_FLOAT',
-    'QUERY_STRING',
-    'DOCUMENT_ROOT',
-    'HTTP_ACCEPT',
-    'HTTP_ACCEPT_CHARSET',
-    'HTTP_ACCEPT_ENCODING',
-    'HTTP_ACCEPT_LANGUAGE',
-    'HTTP_CONNECTION',
-    'HTTP_HOST',
-    'HTTP_REFERER',
-    'HTTP_USER_AGENT',
-    'HTTPS',
-    'REMOTE_ADDR',
-    'REMOTE_HOST',
-    'REMOTE_PORT',
-    'REMOTE_USER',
-    'REDIRECT_REMOTE_USER',
-    'SCRIPT_FILENAME',
-    'SERVER_ADMIN',
-    'SERVER_PORT',
-    'SERVER_SIGNATURE',
-    'PATH_TRANSLATED',
-    'SCRIPT_NAME',
-    'REQUEST_URI',
-    'PHP_AUTH_DIGEST',
-    'PHP_AUTH_USER',
-    'PHP_AUTH_PW',
-    'AUTH_TYPE',
-    'PATH_INFO',
-    'ORIG_PATH_INFO');
 
-echo '<table cellpadding="10">';
-foreach ($indicesServer as $arg) {
-    if (isset($_SERVER[$arg])) {
-        echo '<tr><td>' . $arg . '</td><td>' . $_SERVER[$arg] . '</td></tr>';
-    } else {
-        echo '<tr><td>' . $arg . '</td><td>-</td></tr>';
-    }
-}
-echo '</table>';
