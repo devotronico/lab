@@ -1,5 +1,6 @@
 <?php
 /*
+# NON CANCELLARE
 ## session_name('NOMEMIASESSIONE');
 ### header('Cache-Control: no cache') [index.php]
 ### prevent-browser-cache-for-php-site

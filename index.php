@@ -336,7 +336,7 @@ $root = "/workspace/LAB-02/";
 
 
 
-    
+
     <div class="row border-bottom">
       <div class="col-auto">
         <div style="padding-top:18px;font-size:1.5em;color:blue;">
@@ -349,7 +349,7 @@ $root = "/workspace/LAB-02/";
       </div>
     </div>
 
- 
+
   </div>
 </body>
 </html>
