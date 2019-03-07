@@ -191,5 +191,45 @@ HAVING totalePagato > 0";
 // REGULAR EXPRESSION REGEX
 $sql = "SELECT * FROM `eftin_import` WHERE `file_sbustato` NOT REGEXP BINARY '\.xml$'";
 
+#----
+// PROTOCOLLI
+// SELECT CAST(LEFT(20/19/E, LOCATE('/', 20/19/E)-1) AS UNSIGNED) ritorna E
+//Ultimo codice fattura, parcelle, note di credito. numerazione /I
+$anno = date('Y');
+$sqlFT = "SELECT id, codice FROM ncredito_ricevute WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) = 'I'
+UNION
+SELECT 	id, codice FROM ftin WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) = 'I'
+UNION
+SELECT id, codice FROM parcelle WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) = 'I'
+ORDER BY CAST(LEFT(codice, LOCATE('/', codice)-1) AS UNSIGNED) DESC LIMIT 1";
+$resFT = $conn->query($sqlFT);
+$datiFT = $resFT->fetch_assoc();
+// $aa = date('y');
+$utlimaftI = $datiFT["codice"];
+
+//Ultimo codice fattura elettronica numerazione /E
+$sqlFT = "SELECT id, codice FROM ncredito_ricevute WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) = 'E'
+UNION
+SELECT 	id, codice FROM ftin WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) = 'E'
+UNION
+SELECT id, codice FROM parcelle WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) = 'E'
+ORDER BY CAST(LEFT(codice, LOCATE('/', codice)-1) AS UNSIGNED) DESC LIMIT 1";
+
+$resFT = $conn->query($sqlFT);
+$datiFT = $resFT->fetch_assoc();
+// $aa = date('y');
+$utlimaftE = $datiFT["codice"];
+//$utlimaftInt = (int) str_replace('/'.$aa, '', $datiFT["codice"]);
+//$codiceft = $utlimaftInt + 1 . '/'.$aa;
+
+//Ultimo codice numerazione default
+$sqlFT = "SELECT id, codice FROM ncredito_ricevute WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) BETWEEN '0' AND '9'
+UNION
+SELECT 	id, codice FROM ftin WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) BETWEEN '0' AND '9'
+UNION
+SELECT id, codice FROM parcelle WHERE YEAR(dataEmissione) = $anno AND RIGHT(codice, 1) BETWEEN '0' AND '9'
+ORDER BY CAST(LEFT(codice, LOCATE('/', codice)-1) AS UNSIGNED) DESC LIMIT 1";
+
+
 
 
